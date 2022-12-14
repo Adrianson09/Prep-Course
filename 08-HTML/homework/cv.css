@@ -1,0 +1,66 @@
+:root {
+    --primario: #6834a6;
+    --blanco: #FFF;
+    --negro: #000000;
+    --fuentePrincipal: 'Poppins', sans-serif;
+}
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: var(--fuentePrincipal);
+    font-size: 1.6rem;
+    line-height: 1.8;
+}
+h1, h2, h3 {
+    font-weight: 900;
+    margin: 2rem 0;
+}
+h1 {
+    font-size: 5rem;
+}
+h2 {
+    font-size: 4.6rem;
+}
+h3 {
+    font-size: 3rem;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+[class$="__contenedor"] {
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 90%;
+}
+[class$="__heading"]{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.titulo__img{
+    width: 15rem;
+    margin: 0 auto 3rem auto;
+    border-radius: 300px;
+}
+.titulo__heading{
+    color: var(--primario);
+}
+.titulo__profesion{
+    text-align: center;
+    margin-top: -4rem;
+}
+.descripcion__texto{
+    text-align: center;
+    font-size: 2.1rem;
+}
+.educacion ul{
+    font-weight: bold;
+}
